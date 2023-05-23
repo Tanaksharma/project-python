@@ -1,0 +1,155 @@
+#---------------------------111111111111111111111111----------------------------------------------
+'''a="tanak"
+b="sharma"
+c=a+b
+print(c)'''
+
+#-------------------------------222222222222222222222-------------------------------------------
+'''a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+g=a**b
+h=a//b
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)'''
+
+#-----------------------333333333333333333333333333333-------------------------------------------
+'''a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+area=a*b
+per=2*(a+b)
+print(area)
+print(per)'''
+
+#-------------------------4444444444444444444444444444-------------------------------------------
+'''r=int(input("enter the number:"))
+circum=2*3.14*r
+area=3.14*r**2
+print(circum)
+print(area)'''
+
+#--------------------------555555555555555555555555555------------------------------------------------
+'''a=int(input("enter the number height:"))
+b=int(input("enter the number base :"))
+c=a**2+b**2
+print(c)'''
+
+#--------------------------666666666666666666666666666-------------------------------------------------
+'''x=10
+y=5
+print("enter the swaping number")
+temp=x
+x=y
+y=temp
+print("x=",x)
+print("y=",y)'''
+
+#-------------------------777777777777777777777777777----------------------------------------------------
+'''a=int(input("enter the 1 side:"))
+b=int(input("enter the 2 side:"))
+c=int(input("enter the 3 side:"))
+if a==b==c:
+     print("equleteral triangle:")
+elif a==b or b==c or c==a:
+     print("two equal side triangle:")
+elif a!=b and b!=c and c!=a:
+    print("isoscale triangle:")
+else:
+      print("no result is found:")'''
+
+#------------------------------888888888888888888888888------------------------------------------------------
+'''a=int(input("enter the 1 side:"))
+b=int(input("enter the 2 side:"))
+c=int(input("enter the 3 side:"))
+SI=(a*b*c)/100
+CI=a*(1+b/100)**c
+print(SI)
+print(CI)'''
+
+#----------------------------9999999999999999999999--------------------------------------------------
+'''a=int(input("enter the 1 side:"))
+if a%2==0:
+    print("number is even:")
+else:
+    print("number is odd:")'''
+
+#----------------------------101010101010101010101010---------------------------------------------------
+'''a=int(input("enter the fitst number:"))
+b=int(input("enter the second number :"))
+if a>b:
+    c=a-b
+    print("number A is greater then B:",c)
+elif b>a:
+    c=b-a
+    print("number B is greater than A:",c)'''
+
+#-----------------------11 11 11 11 11 11 11 11 11 11 11 ----------------------------------------------------
+'''a=int(input("enter the fitst number:"))
+if a==7:
+    print("pick all the apples")
+elif a==6:
+    print("one apple is left")
+elif a==5:
+    print("one apple is left")
+elif a==4:
+    print("one apple left")
+else :
+    print("on result")'''
+
+#--------------------121212121212121212121212121212121212121212----------------------------------------------------
+'''a=int(input("number of over in match:"))
+print("1630 runs in match in over:",a)'''
+
+#-----------------------------13131313131313131313--------------------------------------------------------------
+'''a=int(input("enter the fist number:"))
+b=int(input("enter the second number:"))
+print(a is b)'''
+
+'''a=[1,"a",1]
+print("a"in a)'''
+
+#-----------------------------14141414141414141414141414--------------------------------------------------------
+'''x=[1,"s",2,3,4,5,"tanak"]#----list---------
+print(x)
+print(type(x))'''
+'''x=("a",1,2,3,4)#----------tupal----------------
+print(x)
+print(type(x))'''
+'''x={1,2,3,"a","tanak"}#------------set------------
+print(x)
+print(type(x))'''
+'''x={'name':"tanak",'no':12564987632}#--------------dictionary---------
+print(x)
+print(type(x))'''
+
+
+#------------------------------1515151515-------------------------------------------------------------------------
+#--------------------------range---------------------------
+'''x=range(1,10+1,1)
+for n in x:
+ print(n)'''
+
+
+#---------------------------1616161616161616-------------------------------------------------------------------
+'''x=int(input("first=="))
+y=int(input("second=="))
+c=x+y
+print("sum of %d and %d is %d"%(x,y,c))'''
+
+
+#-----------------------------1717171717------------------------------------------------------------------------
+'''x=int(input('enter the number is:'))
+while x<10:
+    print(x)
+    x += 1'''
+
+#------------------------------1818181818181818-------------------------------------------------------------------
+x={'name':'tanak','no.':'456872312564'}
+print(x['name'])
